@@ -1,0 +1,175 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat' , sans-serif;
+
+}
+h1{
+  color: white;
+  font-size: 2.7rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h3{
+
+font-size: 1rem;
+font-weight: bold;
+}
+h2{
+
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 3rem;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/*navbar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+font-family: "Ubuntu";
+font-size: 1.5rem;
+font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1rem;
+  font-family: "Montserrat-light"
+}
+.nav-link{
+
+}
+
+/*BUTTONS*/
+ .download-button{
+   margin: 5% 3% 5% 0;
+ }
+
+ /*image*/
+ .col-lg-6{
+    position: relative;
+}
+ .title-image{
+   width: 60%;
+   right: 30%;
+   transform: rotate(25deg);
+
+   position: absolute;
+ }
+ @media (max-width: 1028px) {
+
+   .title-image{
+     position: static;
+     transform: rotate(0);
+   }
+ }
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+/*sections*/
+.colored-section{
+
+}
+.white-section{
+  
+}
+ /*features*/
+ #features{
+
+   background-color: #fff;
+
+position: relative;
+
+ }
+ .feature-box{
+   text-align: center;
+   padding: 5%;
+ }
+ .icon{
+   color: #ef8172;
+   margin-bottom: 1rem;
+ }
+ .icon:hover{
+   color: #ff4c68;
+ }
+ /*testimonials*/
+ #testimonials{
+
+   text-align: center;
+   background-color: #ef8172;
+ }
+
+
+ .testimonials-images{
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+ .testimonial-image{
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+
+ }
+
+ /*press*/
+ #press{
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+ .press-logo{
+   width: 15%;
+   margin: 20px 20px 50px;
+ }
+ /*pricings*/
+ .pricings{
+   font-family: 'Montserrat' , sans-serif;
+   color: black;
+   font-size: 2.2rem;
+   line-height: 1.5;
+   font-weight: 900;
+ }
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/*class action*/
+.truelove{
+  font-family: "Montserrat" "sans-serif";
+
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+
+  text-align: center;
+}
+/*footer*/
+#footer{
+
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
